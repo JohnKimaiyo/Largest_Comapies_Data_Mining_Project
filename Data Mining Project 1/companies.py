@@ -20,3 +20,6 @@ world_titles
 world_table_titles = [title.text.strip() for title in world_titles]
 
 print(world_table_titles)
+
+
+import pandas as pd
