@@ -16,3 +16,7 @@ print(table)
 world_titles = table.find_all('th')
 
 world_titles
+
+world_table_titles = [title.text.strip() for title in world_titles]
+
+print(world_table_titles)
