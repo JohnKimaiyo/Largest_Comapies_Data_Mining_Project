@@ -23,3 +23,7 @@ print(world_table_titles)
 
 
 import pandas as pd
+
+df = pd.DataFrame(columns = world_table_titles)
+
+df
