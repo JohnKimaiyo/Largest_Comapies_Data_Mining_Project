@@ -39,3 +39,5 @@ for row in column_data[1:]:
     df.loc[length] = individual_row_data
 
 df
+
+df.to_csv(r'C:\Users\alexf\OneDrive\Documents\Python Web Scraping\Folder for Output\Companies.csv', index = False)
