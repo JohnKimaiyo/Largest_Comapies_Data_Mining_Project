@@ -14,3 +14,5 @@ soup.find_all('table')[1]
 print(table)
 
 world_titles = table.find_all('th')
+
+world_titles
