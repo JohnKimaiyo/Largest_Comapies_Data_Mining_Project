@@ -37,3 +37,5 @@ for row in column_data[1:]:
     
     length = len(df)
     df.loc[length] = individual_row_data
+
+df
