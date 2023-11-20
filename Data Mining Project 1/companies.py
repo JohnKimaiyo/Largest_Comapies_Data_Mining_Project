@@ -10,3 +10,5 @@ soup = BeautifulSoup(page.text, 'html')
 soup.find('table')
 
 soup.find_all('table')[1]
+
+print(table)
