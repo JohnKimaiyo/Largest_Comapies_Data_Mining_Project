@@ -27,3 +27,5 @@ import pandas as pd
 df = pd.DataFrame(columns = world_table_titles)
 
 df
+
+column_data = table.find_all('tr')
