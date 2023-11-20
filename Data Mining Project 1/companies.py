@@ -8,3 +8,5 @@ page = requests.get(url)
 soup = BeautifulSoup(page.text, 'html')
 
 soup.find('table')
+
+soup.find_all('table')[1]
